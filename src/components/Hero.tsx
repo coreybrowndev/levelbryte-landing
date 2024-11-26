@@ -32,7 +32,7 @@ const Hero = () => {
             </li>
           </ul>
         </div>
-        <div className="hidden w-[500px] rounded-xl">
+        <div className="hidden md:block w-[500px] rounded-xl">
           <Logo />
         </div>
       </div>

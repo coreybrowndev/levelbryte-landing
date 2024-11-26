@@ -11,9 +11,15 @@ const Card = ({ title, text, image }: CardProps) => {
         <button className="border border-slate-200 text-slate-500 px-4 py-2 rounded-3xl transition">
           Learn More
         </button>
-        <button className="border border-slate-200 text-blue-500 px-4 py-2 rounded-3xl transition">
+        <a
+          className="border border-slate-200 text-blue-500 px-4 py-2 rounded-3xl transition"
+          href="mailto:synsaattv@gmail.com"
+        >
           Contact Us
-        </button>
+        </a>
+        {/* <button className="border border-slate-200 text-blue-500 px-4 py-2 rounded-3xl transition">
+          <a href="href=mailto:synsaattv@gmail.com"></a>
+        </button> */}
       </div>
       {/* Image Section */}
       <div className=" w-full md:w-44 h-56 grow">
