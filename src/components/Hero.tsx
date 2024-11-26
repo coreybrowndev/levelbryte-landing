@@ -13,14 +13,14 @@ const Hero = () => {
         }}
       ></div>
       <div className="absolute z-10 h-full w-full text-center flex flex-col justify-center items-center pt-44">
-        <div className="flex flex-col">
-          <h1 className="text-7xl text-blue-800	font-medium">
+        <div className="flex flex-col w-full">
+          <h1 className="text-5xl md:text-7xl text-blue-800	font-medium text-wrap">
             Your Vision, Data Driven
           </h1>
           <h3 className="text-5xl mt-4 font-normal ">
             We build digital products
           </h3>
-          <ul className="flex my-6 items-center justify-center">
+          <ul className=" flex flex-col md:flex-row gap-2 my-6 items-center justify-center">
             <li className="mx-6 text-white py-0.5 px-6 rounded-3xl bg-blue-600">
               Design
             </li>
@@ -32,7 +32,7 @@ const Hero = () => {
             </li>
           </ul>
         </div>
-        <div className="w-[500px] rounded-xl">
+        <div className="hidden w-[500px] rounded-xl">
           <Logo />
         </div>
       </div>

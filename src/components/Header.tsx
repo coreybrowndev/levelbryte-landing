@@ -3,7 +3,7 @@ import Logo from '../assets/images/levelbryte-logo.png';
 
 const Header = () => {
   return (
-    <header className="header-wrapper flex items-center justify-between bg-inherit rounded-3xl fixed h-14 w-96 pr-4 z-20 mt-8">
+    <header className="header-wrapper flex items-center justify-between bg-inherit rounded-3xl fixed h-14 md:w-96 pr-4 z-20 mt-4 md:mt-8">
       {/* <p>Logo goes here</p> */}
       <div className="h-20 w-32 flex items-center justify-center pt-2">
         <img src={Logo} alt="Levelbryte Logo" className="" />

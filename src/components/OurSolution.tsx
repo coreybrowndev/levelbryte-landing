@@ -12,8 +12,8 @@ const OurSolution = () => {
       ></div>
 
       {/* Content Overlay */}
-      <div className="relative flex items-center justify-center flex-col text-white h-full gap-10">
-        <h2 className="text-5xl font-bold text-blue-500 font-normal">
+      <div className="relative flex items-center justify-center flex-col text-white h-full gap-10 px-4">
+        <h2 className="text-4xl md:text-5xl font-bold text-blue-500 font-normal">
           Our Solution
         </h2>
         <div className="flex flex-col items-center gap-8">

@@ -17,7 +17,7 @@ const CarouselCard = () => {
       {/* Content Overlay */}
       <div className=" gap-8 relative flex items-center justify-center flex-col text-white h-full">
         <div>
-          <h2 className="text-5xl font-bold text-blue-300 font-normal">
+          <h2 className="text-4xl md:text-5xl font-bold text-blue-300 font-normal text-center">
             We create bold experiences
           </h2>
         </div>

@@ -16,7 +16,7 @@ export const projects = [
     developmentType: 'Frontend Development',
     title: 'BSU',
     description:
-      'A frontend project to help students learn more about the ceres history. We provided an all in one solution that allows students to learn about the history and learn more about various solutions related to ceres.',
+      'A frontend project to help students learn more about the history of the CERES project. We provided an all in one solution that allows students to learn about the history and learn more about various information related to CERES.',
     image: `${f2}`,
   },
   {
