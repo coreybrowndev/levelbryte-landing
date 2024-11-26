@@ -10,7 +10,7 @@ const CarouselCard = () => {
       <div
         className="absolute inset-0 bg-cover bg-center"
         style={{
-          backgroundImage: `linear-gradient(to top, rgba(87, 255, 206, 0.3), rgba(0, 0, 0, 0.0)), url(${BGImage})`,
+          backgroundImage: `linear-gradient(to top, rgba(87, 255, 206, 0.6), rgba(0, 0, 0, 0.0)), url(${BGImage})`,
         }}
       ></div>
 
@@ -19,7 +19,7 @@ const CarouselCard = () => {
         <h2 className="text-5xl font-bold text-green-200 font-medium">
           We create bold experiences
         </h2>
-        <div className="flex flex-col flex-wrap gap-4 justify-center px-8">
+        <div className="flex flex-col flex-wrap gap-4 justify-center px-8 pt-12">
           {projects.map((project, index) => (
             <Card
               title={project.title}
