@@ -9,10 +9,10 @@ function App() {
   return (
     <div className="app-wrapper">
       <Header />
-      <main className="flex flex-col items-center gap-14">
-        <section id="hero" className="">
-          <Hero />
-        </section>
+      <section id="hero" className="">
+        <Hero />
+      </section>
+      <main className="flex flex-col items-center gap-16">
         <section className="w-full">
           <OurSolution />
         </section>

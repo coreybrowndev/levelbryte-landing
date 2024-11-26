@@ -12,7 +12,7 @@ const Hero = () => {
           opacity: 0.2,
         }}
       ></div>
-      <div className="absolute z-10 h-full w-full text-center flex flex-col justify-center items-center">
+      <div className="absolute z-10 h-full w-full text-center flex flex-col justify-center items-center pt-44">
         <div className="flex flex-col">
           <h1 className="text-7xl text-blue-800	font-medium">
             Your Vision, Data Driven
@@ -20,10 +20,16 @@ const Hero = () => {
           <h3 className="text-5xl mt-4 font-normal ">
             We build digital products
           </h3>
-          <ul className="flex my-6 items-center justify-center list-disc">
-            <li className="mx-6">Design</li>
-            <li className="mx-6">Development</li>
-            <li className="mx-6">Knowledge</li>
+          <ul className="flex my-6 items-center justify-center">
+            <li className="mx-6 text-white py-0.5 px-6 rounded-3xl bg-blue-600">
+              Design
+            </li>
+            <li className="mx-6 text-white py-0.5 px-6 rounded-3xl bg-blue-600">
+              Development
+            </li>
+            <li className="mx-6 text-white py-0.5 px-6 rounded-3xl bg-blue-600">
+              Knowledge
+            </li>
           </ul>
         </div>
         <div className="w-[500px] rounded-xl">
