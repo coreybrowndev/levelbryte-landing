@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 import './App.css';
 import Footer from './components/Footer';
 import Header from './components/Header';
@@ -7,6 +8,14 @@ import OurWork from './components/OurWork';
 import { SpeedInsights } from '@vercel/speed-insights/react';
 
 function App() {
+  useEffect(() => {
+    window.scrollTo({
+      top: 0,
+      left: 0,
+      behavior: 'smooth',
+    });
+  }, []);
+
   return (
     <div className="app-wrapper">
       <div>

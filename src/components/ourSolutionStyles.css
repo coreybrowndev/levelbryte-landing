@@ -1,0 +1,15 @@
+.fade {
+  scale: 0.7;
+  opacity: 0;
+  animation: fade 12s linear forwards;
+  animation-timeline: view();
+  animation-range-start: cover;
+  animation-range-end: 800px;
+}
+
+@keyframes fade {
+  to {
+    scale: 1;
+    opacity: 1;
+  }
+}

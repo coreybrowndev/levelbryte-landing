@@ -1,8 +1,9 @@
 import BGImage from '../assets/images/stock-bg.png';
+import './ourSolutionStyles.css';
 
 const OurSolution = () => {
   return (
-    <div className="relative w-full min-h-[300px] rounded-3xl overflow-hidden py-6 shadow-xl shadow-blue-300">
+    <div className="relative w-full min-h-[300px] rounded-3xl overflow-hidden py-6 shadow-xl shadow-blue-300 fade">
       {/* Background Image with Gradient */}
       <div
         className="absolute inset-0 bg-cover bg-center"

@@ -26,7 +26,7 @@ const Footer = () => {
           </ul>
         </div>
       </div>
-      <p>&copy; 2021. All rights reserved. LevelBryte</p>
+      <p>&copy; 2024. All rights reserved. LevelBryte</p>
       <div
         className="absolute inset-0 bg-cover bg-center"
         style={{
