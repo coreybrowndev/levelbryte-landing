@@ -1,4 +1,3 @@
-import React from 'react';
 import CarouselCard from './CarouselCard';
 
 const OurWork = () => {

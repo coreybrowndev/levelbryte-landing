@@ -1,3 +1,4 @@
+//@ts-expect-error /* Import Image as component will return error in vite  */
 import Logo from '../assets/banner.svg?react';
 import './landingStyles.css';
 import BGImage from '../assets/images/hero-bg.png';
