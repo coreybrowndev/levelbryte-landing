@@ -4,10 +4,14 @@ import Header from './components/Header';
 import Hero from './components/Hero';
 import OurSolution from './components/OurSolution';
 import OurWork from './components/OurWork';
+import { SpeedInsights } from '@vercel/speed-insights/react';
 
 function App() {
   return (
     <div className="app-wrapper">
+      <div>
+        <SpeedInsights />
+      </div>
       <Header />
       <section id="hero" className="">
         <Hero />
